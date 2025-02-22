@@ -11,7 +11,7 @@ The current program is a **content-based movie recommendation system** that, giv
 ---
 
 1. **About Dataset**  
-The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https://www.imdb.com/list/ls053251213/). The dataset contains information about movies including their genres, which will be used for similarity comparison.
+The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https://www.imdb.com/list/ls053251213/). The dataset contains information about movies including their genres and titles, which will be used for similarity comparison.
 
 2. **Approach**  
 - ***Load the dataset*** - Read the movie data from a CSV file.
