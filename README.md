@@ -20,9 +20,7 @@ The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https
 - ***Compute similarity and Return top 5 recommendations*** - Calculate cosine similarity between the user query and all movie descriptions, and retrieve the most relevant movie titles.
 
 3. **Setup Instruction**  
-- Since this project is programed using Jupyter Notebook ```(.ipynb)```, install the required libraries directly using the following command:
-
-```pip install jupyterlab```
+- Since this project is programed using Jupyter Notebook ```(.ipynb)```, install the required libraries directly using the following command: ```pip install jupyterlab```
 
 - Open Jupyter Notebook.
 - Load and run all cells sequentially.
@@ -36,13 +34,13 @@ Here is a short [video demo](https://youtu.be/0F_FnaNtMWQ) of how to run the pro
 
 When typed a user movie preference:  I love horror movies! 
 
-Output will look like: 
+Outputs of top 5 recommended movies and links to get access to them will be printed as: 
 
-- ('Dawn of the Dead', 'https://www.imdb.com/title/tt0363547/')
-- ('Tucker and Dale vs Evil', 'https://www.imdb.com/title/tt1465522/')
-- ('Shaun of the Dead', 'https://www.imdb.com/title/tt0365748/')
-- ('Insidious', 'https://www.imdb.com/title/tt1591095/')
-- ('The Mothman Prophecies', 'https://www.imdb.com/title/tt0265349/')
+- 'Dawn of the Dead', 'https://www.imdb.com/title/tt0363547/'
+- 'Tucker and Dale vs Evil', 'https://www.imdb.com/title/tt1465522/'
+- 'Shaun of the Dead', 'https://www.imdb.com/title/tt0365748/'
+- 'Insidious', 'https://www.imdb.com/title/tt1591095/'
+- 'The Mothman Prophecies', 'https://www.imdb.com/title/tt0265349/'
 
 ---
 **Salary Expectation Per Hour**
