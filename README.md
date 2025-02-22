@@ -37,10 +37,15 @@ Here is a short [video demo](https://youtu.be/0F_FnaNtMWQ) of how to run the pro
 When given an input description (e.g., `"I like horror movie"`)
 
 System will print or return a list of top 5 recommended movies with links:
+
  ['Dawn of the Dead'](https://www.imdb.com/title/tt0363547/)
+ 
  ['Tucker and Dale vs Evil']('https://www.imdb.com/title/tt1465522/)
+ 
  ['Shaun of the Dead']('https://www.imdb.com/title/tt0365748/')
+ 
  ['Insidious']('https://www.imdb.com/title/tt1591095/)
+ 
  ['The Mothman Prophecies']('https://www.imdb.com/title/tt0265349/)
 
 
