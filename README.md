@@ -6,7 +6,7 @@
 
 ## Overview
 
-Build a **content-based recommendation system** that, given a **short text description** of a user’s preferences, suggests **similar items** (e.g., movies) from a small dataset. This challenge should take about **3 hours**, so keep your solution **simple** yet **functional**.
+Build a **content-based recommendation system** that, given a **short text description** of a user’s preferences, suggests **similar items** (e.g., movies) from a small dataset. The system uses **TF-IDF vectorization** and **cosine similarity** to compare the user's query with movie overviews and return the most relevant recommendations.
 
 ### Example Use Case
 
@@ -17,12 +17,8 @@ Build a **content-based recommendation system** that, given a **short text descr
 
 ---
 
-## Requirements
-
-1. **Dataset**  
-   - Use a **small** public dataset of items (e.g., a list of movies with plot summaries, or other textual descriptions).  
-   - Make sure the dataset is easy to handle (maybe 100–500 rows) so the solution remains quick to implement and run.  
-   - Include the dataset in your forked repository *or* provide instructions/link on how to download it.  
+1. **About Dataset**  
+   The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https://www.imdb.com/list/ls053251213/). The dataset contains information about movies including their descriptions, which will be used for similarity comparison.
 
 2. **Approach**  
    - **Content-Based**: At a minimum, use text similarity to recommend items.  
