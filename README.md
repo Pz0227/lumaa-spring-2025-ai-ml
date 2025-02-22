@@ -6,24 +6,18 @@
 
 ## Overview
 
-Build a **content-based recommendation system** that, given a **short text description** of a user’s preferences, suggests **similar items** (e.g., movies) from a small dataset. The system uses **TF-IDF vectorization** and **cosine similarity** to compare the user's query with movie overviews and return the most relevant recommendations.
-
-### Example Use Case
-
-- The user inputs:  
-  *"I love thrilling action movies set in space, with a comedic twist."*  
-- Your system processes this description (query) and compares it to a dataset of items (e.g., movies with their plot summaries or keywords).  
-- You then return the **top 3–5 “closest” matches** to the user.
+The current program is a **content-based movie recommendation system** that, given a **short text description** in **English** of a user’s preferences, suggests top 5 **similar items** from a small dataset which has 100 movies. The system uses **TF-IDF vectorization** and **cosine similarity** to compare the user's query with movie overviews and return the most relevant recommendations.
 
 ---
 
 1. **About Dataset**  
-   The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https://www.imdb.com/list/ls053251213/). The dataset contains information about movies including their descriptions, which will be used for similarity comparison.
+The dataset used in this project is **Top 100 Movies Dataset** from [IMDB](https://www.imdb.com/list/ls053251213/). The dataset contains information about movies including their genres, which will be used for similarity comparison.
 
 2. **Approach**  
-   - **Content-Based**: At a minimum, use text similarity to recommend items.  
-     - For instance, you can transform both the user’s text input and each item’s description into TF-IDF vectors and compute **cosine similarity**.  
-   - Return the **top N** similar items (e.g., top 5).
+- ***Load the dataset*** - Read the movie data from a CSV file.
+- ***Preprocess the text*** - Clean movie descriptions by converting text to lowercase, removing special characters, tokenize words, and remove stopwords.
+- ***Convert text into numerical vectors*** - Use TF-IDF to transform text descriptions into numerical format.
+- ***Compute similarity and Return top 5 recommendations*** - Calculate cosine similarity between the user query and all movie descriptions, and retrieve the most relevant movie titles.
 
 3. **Code Organization**  
    - You may use a **Jupyter Notebook** or **Python scripts**.  
